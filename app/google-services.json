@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893237614523",
+    "firebase_url": "https://cyclock-89e50.firebaseio.com",
+    "project_id": "cyclock-89e50",
+    "storage_bucket": "cyclock-89e50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893237614523:android:5d95bc6bd061ea5a",
+        "android_client_info": {
+          "package_name": "com.cyclock.anil4.cyclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893237614523-qgsia4ahrq6ahtiimrhmh5dcd1i8ie2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyclock.anil4.cyclock",
+            "certificate_hash": "5ee4c454230a98ae324f9e4d93a42ac8cd178154"
+          }
+        },
+        {
+          "client_id": "893237614523-8dorbo8ujfmtminbchig5gpriedj7on0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcatwj3L_7NodWHxB-vkvdzzZ9nEzsId0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893237614523-8dorbo8ujfmtminbchig5gpriedj7on0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

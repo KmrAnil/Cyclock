@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyclock.anil4.cyclock">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/unlock"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".PasswordForget" />
+        <activity android:name=".AdminSecond" />
+        <activity android:name=".UserSecond" />
+        <activity android:name=".Registration"
+            android:parentActivityName=".AdminSecond"/>
+        <activity
+            android:name=".PopUpWindow"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".RequestListActivity" />
+    </application>
+
+</manifest>
