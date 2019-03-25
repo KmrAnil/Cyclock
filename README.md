@@ -5,9 +5,11 @@ That can be operated from far distance
 
 First you have option to select as Admin or User
 
-## Admin Section
+
 
 ![WhatsApp Image 2019-03-15 at 2 30 58 AM](https://user-images.githubusercontent.com/48729939/54922789-e32d5680-4f2e-11e9-80e9-7c564eeebdac.jpeg)
+
+## Admin Section
 
 If you login as **Admin** then the next Activity is
 
@@ -32,3 +34,8 @@ Admin can also lock and unlock the cycle.
 
 In UserSecond Activity user can request the Admin for the cycle without the permission of Admin user can`t lock and unlock the cycle. Only if user request is accepted the user can lock or unlock the cycle
 If user request is accepted the request is shown Accepted otherwise Rejected
+
+
+## Working
+The lock we use is attacked to the wifi module that get realtime database from the firebase and change according to the database that is directly changed by the app installed in the User or Admin phone
+
